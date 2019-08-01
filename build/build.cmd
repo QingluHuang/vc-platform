@@ -8,7 +8,7 @@ IF NOT DEFINED ARTIFACTS_PATH (
 )
 
 cd ..
-cd /d VirtoCommerce.Platform.Web
+cd /d src\VirtoCommerce.Platform.Web
 
 call npm i
 IF !ERRORLEVEL! NEQ 0 goto error
